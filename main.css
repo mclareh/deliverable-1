@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end
+}
+
+nav a {
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h2.facts {
+    color: aqua;
+    background-color: orchid;
+}
+
+h2.bands {
+    color: orchid;
+    background-color: aqua;
+}
+
+a{
+    color: hotpink;
+}
+
+a:hover {
+    background-color: yellow;
+    color: hotpink;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #404355;
+}
+
+div.images-containter {
+    background-color: antiquewhite;
+}
+
+div.image {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: lightpink;
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+    background-color: hotpink;
+    border: 3px dashed #c00;
+    padding: 40px;
+}
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row input {
+    flex: 1;
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+    div.images-containter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+    
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    }
+    
